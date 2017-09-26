@@ -7,5 +7,3 @@ def prime?(integer)
         return prime_detection(integer)
       end
     end
-
-
