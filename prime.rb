@@ -18,4 +18,4 @@ def prime_detection(integer)
     a += 1
   end
 return true
-end 
+end
