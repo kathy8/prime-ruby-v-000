@@ -11,11 +11,11 @@ def prime?(integer)
 def prime_detection(integer)
   a = 2
   while a < integer
-    b = integer /a
+    b = integer / a
     if a * b == integer
-      false
+      return false
     end
     a += 1
-  end 
-  true
+  end
+return true
 end 
