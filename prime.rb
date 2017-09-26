@@ -1,9 +1,11 @@
 def prime?(integer)
-    if integer <= -1
+    if integer < 2
         false
-    elsif integer == 3
+    elsif integer == 2 || integer == 3
         true
     else
-        (2..n/2).none? { |i| n % i == 0}
+        return prime_detection(integer)
       end
     end
+
+
